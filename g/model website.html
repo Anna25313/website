@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>l1nux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 1em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #005bb5;
+            padding: 0.5em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+        }
+        nav a:hover {
+            background: #003f7f;
+        }
+        section {
+            padding: 2em;
+        }
+        button {
+            background: #0073e6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to l1nux</h1>
+    </header>
+    <nav>
+        <a href="about l1nux.html">About l1nux</a>   
+        <a href="#contact">Contact</a>
+        <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&ab_channel=SuperSimpleDev">How to bulid</a>
+        <a href="ping pong.html">ping pong</a>
+        <a href="number gussing.html">gusse the number game</a>
+        <a href="https://www.youtube.com/watch?v=VAjbRrZm80s&ab_channel=CodeArry">How to Make a game</a>
+    </nav>
+    <section id="about">
+        <h2>About me</h2>
+        <p>i am Ana and i made this website in 2023.</p>
+    </section>
+    <section id="admissions">
+        <h2>My point</h2>
+        <p><strong>Learn programming</strong></p>
+    </section>
+    <section id="contact">
+        <h2>Contact me</h2>
+        <p>Telegram:<a href="https://t.me/Legucy" target="_blank"><strong>Text on Telegram</strong></a>  | <strong>Phone: +251 09 15363694</strong></p>
+        <button onclick="showAlert()">Thank you</button>
+    </section>
+    
+    <script>
+        function showAlert() {
+            alert("Thank you for your vewing my website!");
+        }
+    </script>
+</body>
+</html>
